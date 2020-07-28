@@ -29,5 +29,8 @@ module Onlinestore
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+    #config/application.rb
+    #make sure to add this below the class Application < Rails::Application line
+    config.assets.paths << "#{Rails.root}/app/assets/videos"
   end
 end

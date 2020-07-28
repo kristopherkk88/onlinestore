@@ -1,10 +1,4 @@
 class SimplePagesController < ApplicationController
-  def index
-  end
-
-  def about
-  end
-
-  def contact
+  def landing_page
   end
 end
